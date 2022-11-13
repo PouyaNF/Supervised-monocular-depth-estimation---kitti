@@ -84,7 +84,7 @@ if __name__ == '__main__':
     depth_net = 'outputs/4-/checkpoint34.pth'
     save_to = 'outputs/4-/predictions'
     #save_to_test_images = 'outputs - other models/resnet/test images'
-    kitti_root_path = 'D:/Pooya/Dataset/Kitti'
+    kitti_root_path = 'Dataset/Kitti'
 
     ####### fast depth model
     model = MobileNetSkipAdd()
